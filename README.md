@@ -1,1 +1,1 @@
-# parseJsonIntoHtml
+主要使用Factory模式

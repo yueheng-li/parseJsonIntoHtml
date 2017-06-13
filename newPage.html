@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>New Page</title>
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet">
+    <!-- Bootstrap core CSS -->
+    <link href="css/lib/bootstrap.min.css" rel="stylesheet">
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="css/lib/ie10-viewport-bug-workaround.css" rel="stylesheet">
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="js/lib/ie-emulation-modes-warning.js"></script>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <div class="container">
+        <div class="row clearfix">
+            <div class="col-md-12 column">
+                <!-- fieldset -->
+                <div class="templatePad row form-inline">
+                    <!-- Template information -->
+                    <div class="row clearfix">
+                        <div class="col-md-6 column">
+                            genreID <input type="text" id="generid" />
+                            <br/><br/>
+                            Template Name:<label id="templateName"></label>
+                        </div>
+                        <div class="col-md-6 column">
+                            <div id="pulldownTemplate">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <!-- fieldset -->
+                <div class="templatePad row form-inline">
+                    <form id="form">
+                        <!-- Template information -->
+                        <div class="row clearfix">
+                            <div class="col-md-12 column">
+
+                                <div id="currentTemplate">
+                                </div>
+                            </div>
+                        </div>
+
+                        <br>
+                        <div class="row clearfix">
+                            <div class="col-md-12 column">
+
+                                <span id="previousTemplateSpan">(Previous)<label id="previousTemplateName"></label></span>
+                                <div id="previousTemplate">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- detail -->
+                        <div class="row clearfix" id="detail">
+                            <div class="col-md-1 column">
+                            </div>
+                            <div class="col-md-3 column">
+                                <button class="btn-lg btn-block  r-item-btn" type="button" id="back">Back to Home</button>
+                            </div>
+                            <div class="col-md-3 column">
+                                
+                            </div>
+                            <div class="col-md-3 column">
+                                <button class="btn-lg btn-block  r-item-btn" type="submit" id="goto">Go to Confirm</button>
+                            </div>
+                            <div class="col-md-1 column">
+                            </div>
+                        </div>
+
+                    </form >
+                </div>
+            </div>
+        </div>
+
+        <!-- /container -->
+        <script src='js/lib/jquery-1.12.4.min.js'></script>
+        <script src="js/lib/jquery.validate.min.js"></script>
+        <!--<script src='js/lib/jquery.tabletojson.js'></script>-->
+        <script src='js/messages_ja.js'></script>
+        <script src='js/tabletojson.js'></script>
+        <script src='js/template1.js'></script>
+        <script src='js/HtmlTag.js'></script>
+        <script src='js/utils.js'></script>
+        <script src='main.js'></script>
+</body>
+</html>
